@@ -1,1 +1,15 @@
-{{outlet}}
+<div class="container">
+  <header class = "jumbotron">
+    <h1>Super Rentals</h1>
+  </header>
+    {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'contact'}} Get in touch {{/link-to}}
+    <br>
+    {{#link-to 'about'}}About{{/link-to}}
+    <br>
+    {{#link-to 'index'}}Home{{/link-to}}
+    <br>
+  </footer>
+</div>
