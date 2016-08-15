@@ -2,8 +2,13 @@
 
 <ul>
   {{#each model as |announcement|}}
-    <li>{{announcement.message}}</li>
+    <li>
+      {{announcement.message}}
+      <button {{action 'delete' announcement}}>Delete</button>
+    </li>
   {{/each}}
 </ul>
+
+{{new-announcement save2="save3"}}
 
 {{#link-to 'index'}}Home{{/link-to}}
