@@ -20,5 +20,13 @@
 
   "announcements": [{
     "message": "Don't rent any apartments in Portland because the Pacific fault line is about to rupture any day now!"
-    }]
+    }],
+
+    "cities": [{
+    "name": "Portland",
+    "country": "USA"
+  }, {
+    "name": "Seattle",
+    "country": "USA"
+  }]
 }
